@@ -14,8 +14,6 @@ const stage = new Scenes.Stage([
 
 ]);
 
-bot.start((ctx) => ctx.reply('Hello'))
-
 bot.use(session())
 bot.use(stage.middleware());
 
